@@ -3,6 +3,13 @@ const express = require('express');
 const app = express();
 const port = 1234;
 
+// middleware
+app.use((req, res, next) => {
+  console.log('incoming request:', req.method, req.url);
+  // res.send('hello from the middleware');
+  next();
+});
+
 app.get("/info", (req, res) => {
   res.send("This is the Info page");
 });
