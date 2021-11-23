@@ -18,7 +18,7 @@ const server = http.createServer((request, response) => {
     return;
   }
 
-  response.write("Page not Found:". );
+  response.write("Page not Found:", path);
   response.end();
 });
 
