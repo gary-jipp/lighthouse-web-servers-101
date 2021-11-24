@@ -1,6 +1,6 @@
-# W03D01 - Web Servers 101
+# Web Servers 101
 
-### To Do
+### Topics
 - [x] Web Servers
 - [x] Express
 - [x] Middleware
